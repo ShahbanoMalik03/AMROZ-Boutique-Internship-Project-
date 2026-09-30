@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMROZ | Home - For Every Occasion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .hero-wrap {
+    position: relative;
+    height: calc(100vh - 80px);   
+    height: calc(100svh - 80px);
+    min-height: 380px;
+    overflow: hidden;
+  }
+  .hero-wrap .carousel,
+  .hero-wrap .carousel-inner,
+  .hero-wrap .carousel-item { height: 100%; }
+  .hero-wrap .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero-wrap .hero-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+  }
+</style>
+
+<link rel="stylesheet" href="about.html">
+<link rel="stylesheet" href="contact.html">
+<link rel="stylesheet" href="services.html">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-amroz">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a class="brand navbar-brand" href="index.html">AMROZ </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-auto text-uppercase">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <a href="contact.html" class="btn btn-olive d-none d-lg-inline-block text-uppercase">Get Started</a>
+  </div>
+</nav>
+
+<header class="hero-wrap">
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="CAROUSEL 1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="CAROUSEL2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="CAROUSEL 3.jpg" class="d-block w-100" alt="...">
+    </div>
+        <div class="carousel-item">
+      <img src="CAROUSEL 4.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="CAROUSEL 5.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+    <div class="hero-overlay">
+      <div class="container">
+        <div class="hero-tags mb-3">
+          <span>&#9679; LUXURY</span><span>&#9679; ELEGANCE</span><span>&#9679; EXQUISITE</span>
+        </div>
+        <h1>THE ART OF DRESSING<br>FOR EVERY OCCASION</h1>
+        <p class="mb-4">Step into a world of refined couture, where every detail tells a story.</p>
+        <div class="d-flex align-items-center gap-3">
+          <a href="services.html" class="btn btn-olive text-uppercase">Discover More</a>
+          <button type="button" class="play-circle border-0" data-bs-toggle="modal" data-bs-target="#heroVideoModal" aria-label="Play studio video">▶</button>
+        </div>
+      </div>
+    </div>
+</header>
+
+<!-- Video modal triggered by the play button -->
+<div class="modal fade" id="heroVideoModal" tabindex="-1" aria-labelledby="heroVideoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-white" id="heroVideoModalLabel">Inside the AMROZ STUDIO</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-0">
+        <video class="w-100" controls playsinline>
+          <source src="VIDEO1.mp4" type="video/mp4">
+          Your browser does not support embedded video.
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 2. ABOUT (teaser) -->
+<section class="about" id="about-teaser">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <div class="col-lg-5">
+        <img class="main-img" src="chatoyer.jpeg" alt="Black beauty">
+      </div>
+      <div class="col-lg-7">
+        <img class="small-img mb-3" src="emeraude.jpeg" alt="Close-up of a pink peony" style="max-width:260px;margin-left:auto;display:block;">
+        <div class="eyebrow mt-3">ABOUT US</div>
+        <h2>Creating Beautiful Moments Every Day</h2>
+        <p>Amroz Atelier transforms the poetry of nature into modern luxury couture. Rooted in South Asian craftsmanship, our signature is expressed through soft pastel hues, organic forms, intricate embroidery, and artful embellishment. Crisp silhouettes and impeccable finishing create a balance of delicacy and strength crafted for the modern woman who embodies confidence, sophistication, and effortless elegance.</p>
+        <a href="about.html" class="btn btn-outline-dark text-uppercase mb-4">Learn More</a>
+        <div class="row g-3">
+          <div class="col-4"><div class="stat-box"><h3>6+</h3><span>YEARS EXPERIENCE</span></div></div>
+          <div class="col-4"><div class="stat-box"><h3>8k+</h3><span>HAPPY CUSTOMERS</span></div></div>
+          <div class="col-4"><div class="stat-box"><h3>20k+</h3><span>DRESSES DELIVERED</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. WHY CHOOSE US -->
+<section class="why-section">
+  <div class="eyebrow">WHY CHOOSE US</div>
+  <h2 class="mb-4">Why Amroz Is Your<br>Trusted Brand</h2>
+  <div class="row g-4">
+    <div class="col-6 col-md-3">
+      <div class="why-item mx-auto"><div style="font-size:1.4rem;">✿</div><h5>Unique Designs</h5><p>Encrafted by trusted tailors.</p></div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="why-item mx-auto"><div style="font-size:1.4rem;">✂</div><h5>Custom Designs</h5><p>Tailored to your taste and occasion.</p></div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="why-item mx-auto"><div style="font-size:1.4rem;">🚚</div><h5>Fast Delivery</h5><p>Arrives as soon as it left.</p></div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="why-item mx-auto"><div style="font-size:1.4rem;">🌷</div><h5>Expert Designer</h5><p>Years of hand-tied craft.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. SERVICES (teaser) -->
+<section class="services" id="services-teaser">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-end mb-4 flex-wrap gap-3">
+      <div><div class="eyebrow">SERVICES</div><h2>Luxury Services for<br>Every Occasion</h2></div>
+      <a href="services.html" class="btn btn-outline-olive text-uppercase">View All Services</a>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="d-flex justify-content-between"><img class="icon-circle" src="1 (1).jpg" alt="Fashion icon"><span class="arrow">→</span></div>
+          <h5>Elegance in Every Design </h5><p>Hand Embroidery, Luxury Silhouettes</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="d-flex justify-content-between"><img class="icon-circle" src="1 (2).jpg" alt="Fashion icon"><span class="arrow">→</span></div>
+          <h5>Wedding Dresses</h5><p>From bridal to bridesmade full styling for your big day.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="d-flex justify-content-between"><img class="icon-circle" src="1 (3).jpg" alt="Fashion icon"><span class="arrow">→</span></div>
+          <h5>Every Event</h5><p> Every Event and moment spend with elegance and style</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. CTA BANNER -->
+<div class="cta-banner">
+  <div class="overlay" style="background:linear-gradient(100deg,rgba(20,10,14,.85),rgba(20,10,14,.35)), linear-gradient(160deg,#3f1420,#7a9b6c);"></div>
+  <div class="content">
+    <div class="eyebrow" style="color:#d9b8c3;">GET STARTED</div>
+    <h2>Style For <br>Every Occasion</h2>
+    <p>Let us provide you the perfect dreamy dress for your next occasion.</p>
+    <a href="contact.html" class="btn btn-olive text-uppercase mt-2">📞 Contact Us</a>
+  </div>
+</div>
+
+<!-- 6. GALLERY CAROUSEL (drop your own photos/videos into images/) -->
+<section class="gallery-carousel-section">
+  <div class="container">
+    <div class="eyebrow">OUR WORK</div>
+    <h2 class="mb-4">A Collection of Art</h2>
+    <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row g-3">
+            <div class="col-4"><img src="amayaedit.jpeg" alt="photo 1"></div>
+            <div class="col-4"><img src="lueur d'espoir edit.jpeg" alt="photo 2"></div>
+            <div class="col-4"><img src="emeraudeedit.jpeg" alt=" photo 3"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-3">
+            <div class="col-4"><img src="nami3 edit.jpeg" alt="photo 4"></div>
+            <div class="col-4"><img src="zora1 edit.jpeg" alt="photo 5"></div>
+            <div class="col-4"><img src="chatoyeredit.jpeg" alt="photo 6"></div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon dark-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon dark-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- 7. TESTIMONIALS CAROUSEL -->
+<section class="testimonials">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <div class="col-lg-5">
+       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="pic1.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="pic2.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="pic3.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="pic4.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="pic5.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="col-lg-7">
+        <div class="eyebrow">TESTIMONIALS</div>
+        <h2 class="mb-4">Loved by Customers,<br>Trusted for Every Occasion</h2>
+        <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>“Absolutely stunning! The embroidery and attention to detail were even more beautiful in person. I felt so elegant wearing it.”</p>
+                    <div class="d-flex align-items-center gap-2"><img class="avatar" src="images/avatar-1.svg" alt="Ayesha R."><div><div class="who">Ayesha R.</div><div class="role">Customer</div></div></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>“The dress was beautifully crafted and fit perfectly. Every little detail felt luxurious and thoughtfully designed.”</p>
+                    <div class="d-flex align-items-center gap-2"><img class="avatar" src="images/avatar-2.svg" alt="Maham K."><div><div class="who">Maham K.</div><div class="role">Customer</div></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>“Such a gorgeous collection! The quality, finishing, and overall presentation were exceptional. Definitely a boutique I’ll return to.”</p>
+                    <div class="d-flex align-items-center gap-2"><img class="avatar" src="images/avatar-3.svg" alt="Sana M."><div><div class="who">Sana M.</div><div class="role">Customer</div></div></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>“Elegant, unique, and beautifully made. I received so many compliments on my outfit. Truly a memorable experience!”</p>
+                    <div class="d-flex align-items-center gap-2"><img class="avatar" src="images/avatar-4.svg" alt="Zara H."><div><div class="who">Zara H.</div><div class="role">Customer</div></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex gap-2 mt-3">
+            <button class="btn btn-outline-olive" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">‹ Prev</button>
+            <button class="btn btn-outline-olive" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">Next ›</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq container">
+  <div class="eyebrow">FAQS</div>
+  <h2 class="mb-4">Everything You Need to Know</h2>
+  <div class="accordion" id="faqAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">Do you offer custom sizing?
+</button></h2>
+      <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">Yes, selected designs can be customized according to your measurements. Please contact us for details.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">Can I exchange or return my order?
+</button></h2>
+      <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">Yes, exchanges and returns are available according to our return policy. Please check our Returns & Exchanges page for details.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">Are your dresses ready-to-wear or made to order?
+</button></h2>
+      <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">We offer both ready-to-wear and made-to-order pieces. Availability is mentioned on each product page. <a href="services.html">Services page</a> for details.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-3"><div class="brand mb-3">AMROZ</div><p style="font-size:.85rem;color:#e6d3d8;">Dresses made for every occasion made with elegance.</p></div>
+      <div class="col-6 col-lg-2">
+        <h6>QUICK LINKS</h6>
+        <div class="d-flex flex-column gap-2">
+          <a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6>OUR SERVICES</h6>
+        <div class="d-flex flex-column gap-2">
+          <a href="services.html#luxurydresses">Luxury Dresses</a><a href="services.html#wedding-florals">Wedding Dresses</a><a href="services.html#ready-to-wear">Ready to Wear</a>
+        </div>
+      </div>
+      <div class="col-lg-2">
+        <h6>CONTACT</h6>
+        <div class="d-flex flex-column gap-2">
+          <a href="tel:+922135551234">(+92) 3217188436 </a>
+          <a href="mailto:hello@fleura.com">hello@amroz.com</a>
+          <span style="font-size:.85rem;color:#e6d3d8;">Lahore, Pakistan</span>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <h6>SHINE WITH EVERY LOOK</h6>
+        <p style="font-size:.82rem;color:#e6d3d8;">Subscribe for seasonal offers and fresh inspiration.</p>
+        <form class="subscribe-form d-flex">
+          <input type="email" class="form-control" placeholder="Email" required>
+          <button class="btn btn-olive subscribe-btn text-uppercase" type="submit">Subscribe</button>
+        </form>
+        <div class="subscribe-msg small mt-2 d-none" style="color:#44052c;"></div>
+        <div class="d-flex gap-2 mt-3">
+          <a class="social-icon" href="https://www.facebook.com" target="_blank" rel="noopener">f</a>
+          <a class="social-icon" href="https://www.twitter.com" target="_blank" rel="noopener">𝕏</a>
+          <a class="social-icon" href="https://www.youtube.com" target="_blank" rel="noopener">▶</a>
+          <a class="social-icon" href="https://www.instagram.com" target="_blank" rel="noopener">◎</a>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-5">
+    <div class="text-center" style="font-size:.78rem;color:#d6527e;">© <span id="footerYear">2026</span> Amroz. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
